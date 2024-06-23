@@ -1,7 +1,7 @@
 # **Leonid Lachowski**
 
 #### Contacts:
-* Location: _Crakov Poland_
+* Location: _Cracov Poland_
 * Phone:    _+48721065617_
 * Email:    _ljachowski69@gmail.com_
 * GitHub:   _[LeonidLachowski](https://github.com/LeonidLachowski)_
@@ -28,3 +28,4 @@ alert( result );
 * ##### Polish - B2
 * ##### German - A2
 * ##### English level - A1 (A2 - in process)
+

@@ -1,10 +1,117 @@
-body {
+* {
+  box-sizing: border-box;
+}
+  html {
+    scroll-behavior: smooth; 
+  }
+  body {
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    min-width: 320px;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #271710fa;
+  }
+  .header {
+    background-color: #999482a8;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d82828fa;
+    transition: color 0.5s;
+  }
+  
+  .section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  .section-item a:hover {
+    color: #271a15fa ;
+  }
+  .main {
+    margin-bottom: auto;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
+  .section-title {
+    margin-bottom: 20px;  
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #829996;
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 150px 30px;
+    border-bottom: 15px solid #999482a8;
+  }
+  
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  } 
+  .main-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 15px;
+  }
+  .pre {
+    padding: 0;
+    margin: 0;
+  }
+  .footer {
+    background-color: #999482a8;
+    padding: 20px;  
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
   }

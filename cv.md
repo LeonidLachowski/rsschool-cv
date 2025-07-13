@@ -27,4 +27,4 @@ alert( result );
 * ##### Russian - native speaker
 * ##### Polish - B2
 * ##### German - A2
-* ##### English level - A1 (A2 - in process)
+* ##### English level - A2 (B1 - in process)
